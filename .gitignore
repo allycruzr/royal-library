@@ -459,3 +459,7 @@ Thumbs.db
 appsettings.Development.json
 launchSettings.json
 *.http
+
+frontend/package-lock.json
+
+package-lock.json
