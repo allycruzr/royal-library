@@ -11,7 +11,7 @@ public class BookSearchDto
     public string? Isbn { get; set; }
 
     [StringLength(50, ErrorMessage = "Status cannot exceed 50 characters")]
-    public string? Status { get; set; } // To implement later (own/love/want to read)
+    public string? Status { get; set; }
 
     [Range(1, int.MaxValue, ErrorMessage = "Page must be greater than 0")]
     public int Page { get; set; } = 1;
