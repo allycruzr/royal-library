@@ -1,9 +1,6 @@
 ﻿# Royal Library
 
-Personal book library system built with .NET 9 and React.
-
-## Screenshot
-<img width="1134" height="1120" alt="image" src="https://github.com/user-attachments/assets/aa010555-c505-4b9c-8340-679948dc9a54" />
+Personal book library system built with .NET 9 and React
 
 ## Features
 
@@ -95,4 +92,5 @@ cd backend/src/RoyalLibrary.Api.Tests && dotnet test
 # Frontend tests  
 cd frontend && npm test
 ```
+
 
