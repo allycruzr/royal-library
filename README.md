@@ -78,6 +78,16 @@ GET /api/books?page=1&pageSize=5
 
 ## Testing
 
+**Windows PowerShell:**
+```powershell
+# Backend tests
+cd backend\src\RoyalLibrary.Api.Tests; dotnet test
+
+# Frontend tests
+cd frontend; npm test
+```
+
+**Linux/macOS:**
 ```bash
 # Backend tests
 cd backend/src/RoyalLibrary.Api.Tests && dotnet test
