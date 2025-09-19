@@ -454,3 +454,8 @@ node_modules/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Application settings
+appsettings.Development.json
+launchSettings.json
+*.http
