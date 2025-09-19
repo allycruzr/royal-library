@@ -113,6 +113,7 @@ public class BookService : IBookService
             Type = book.Type,
             Isbn = book.Isbn,
             Category = book.Category,
+            OwnershipStatus = book.OwnershipStatus,
             AvailableCopies = $"{availableCopies}/{book.TotalCopies}"
         };
     }

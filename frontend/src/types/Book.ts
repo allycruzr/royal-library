@@ -6,6 +6,7 @@ export interface Book {
   type?: string;
   isbn?: string;
   category?: string;
+  ownershipStatus?: string;
   availableCopies: string;
 }
 

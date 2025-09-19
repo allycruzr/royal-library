@@ -170,10 +170,13 @@ const BookSearch: React.FC = () => {
               
               <div className="books-grid">
                 {books.map((book) => {
-                  const statusInfo = getStatusBadge(book.availableCopies.split('/')[0] === '0' ? 'want to read' : 'own');
+                  const statusInfo = book.ownershipStatus ? getStatusBadge(book.ownershipStatus) : null;
                   return (
                     <div key={book.id} className="book-card">
                       <h3 className="book-title">{book.title}</h3>
+                      {statusInfo && (
+                        <span className={`status-badge ${statusInfo.class}`}>{statusInfo.label}</span>
+                      )}
                       
                       <div className="book-detail">
                         <span className="book-detail-label">Author:</span>

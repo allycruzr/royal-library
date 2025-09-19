@@ -9,5 +9,6 @@ public class BookResultDto
     public string? Type { get; set; }
     public string? Isbn { get; set; }
     public string? Category { get; set; }
+    public string? OwnershipStatus { get; set; }
     public string AvailableCopies { get; set; } = string.Empty; // "available/total" format
 }
